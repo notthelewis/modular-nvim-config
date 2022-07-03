@@ -6,7 +6,7 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 " order to source each config file is defined in the import_order.vim file.
-source ~/.config/nvim/import_order.vim
+source ~/.config/nvim/import-order.vim
 
 " Source every vim file, conforming to a specific order.
 for f in order
