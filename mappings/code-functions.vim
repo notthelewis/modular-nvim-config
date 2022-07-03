@@ -1,3 +1,9 @@
+" This file lists all the mappings that directly relate to changing code
+" within source files.
+" Each map is prepended by a c, for code.
+
+
+
 " Use <Tab> and <S-Tab> to navigate through autocomplete menu
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
