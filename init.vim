@@ -5,10 +5,10 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
     autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-" Source every vim file, conforming to a specific order.
+" order to source each config file is defined in the import_order.vim file.
 source ~/.config/nvim/import_order.vim
 
-" order is defined in the import_order.vim file.
+" Source every vim file, conforming to a specific order.
 for f in order
     let s:path = '~/.config/nvim/' .. f
     try
