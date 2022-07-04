@@ -10,9 +10,6 @@ set hidden
 " Lower updatetime from 4 seconds, so as to improve user experience
 set updatetime=300
 
-" Shows things like LSP warnings or git integration
-set signcolumn=number
-
 " Turn off sound effects, and line wrap
 set noerrorbells
 set nowrap
