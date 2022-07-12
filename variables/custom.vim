@@ -2,7 +2,7 @@
 colorscheme gruvbox
 
 " Coc extensions for Typesript, css, html, json, js, Rust and git
-let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-rust-analyzer', 'coc-git' ]
+let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-rust-analyzer', 'coc-git', 'coc-pyright' ]
 
 " Ignore node_modules folder when using telescope.
 lua require('telescope').setup{ file_ignore_patterns = { "node%_modules/.*" }, }
