@@ -2,7 +2,6 @@
     "npm.binPath": "/home/lewis/.local/share/nvm/v16.15.0/bin/npm",
     "tsserver.implicitProjectConfig.checkJs": true,
     "tsserver.npm": "/home/lewis/.local/share/nvm/v16.15.0/bin/npm",
-    "tsserver.enableJavascript": false,
     "tsserver.trace.server": "verbose",
     "prettier.tabWidth": 4
 }
