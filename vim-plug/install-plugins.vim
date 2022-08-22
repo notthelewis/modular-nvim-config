@@ -35,4 +35,7 @@ call plug#begin()
     " HTML Emmet plugin, allows for fast HTML tags.
     Plug 'mattn/emmet-vim'
 
+    "JSX Highlighting
+    Plug 'maxmellon/vim-jsx-pretty'
+
 call plug#end()
