@@ -5,8 +5,10 @@
 
 
 " Use <Tab> and <S-Tab> to navigate through autocomplete menu
-inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+inoremap <silent><expr> <Tab> coc#pum#visible() ? coc#pum#next(1) : "\<C-n>"
+inoremap <silent><expr> <S-Tab> coc#pum#visible() ? coc#pum#prev(1) : "\<C-n>"
+
 
 " GoTo code navigation
 nmap <leader>cgd <Plug>(coc-definition)
